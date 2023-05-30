@@ -50,8 +50,11 @@
 	"scripts": {
 		"test": "grunt"
 	},
-	"dependencies": {},
+	"dependencies": {
+	"grunt": ">=1.5.3"
+	},
 	"devDependencies": {
+		"grunt": ">=1.5.3",
 		"commitplease": "2.3.0",
 		"grunt": "0.4.5",
 		"grunt-bowercopy": "1.2.4",
