@@ -4137,7 +4137,7 @@ var keycode = $.ui.keyCode = {
 var escapeSelector = $.ui.escapeSelector = ( function() {
 	var selectorEscape = /([!"#$%&'()*+,./:;<=>?@[\]^`{|}~])/g;
 	return function( selector ) {
-		return selector.replace( selectorEscape, "\\$1" );
+		return selector.replace( selectorEscape, "$1" );
 	};
 } )();
 
